@@ -1,3 +1,4 @@
+from google_analytics.models import Analytics
 from django.contrib import admin
 
-# Register your models here.
+admin.site.register(Analytics)
